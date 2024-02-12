@@ -121,7 +121,7 @@ export const DashboardContent = (props) => {
           <div className="flex flex-row justify-center items-center w-[90%] bg-[#845EC2] mt-[11vh] lg:mt-[10px] mb-[20px] rounded-md">
             <div
               align="center"
-              className="w-[90%] text-white text-[20px] p-[10px]"
+              className="w-[75%] sm:w-[85%] text-white text-[20px] p-[10px]"
             >
               {data.map((item) => {
                 return item.id === props.pagecontent ? (
@@ -131,7 +131,7 @@ export const DashboardContent = (props) => {
             </div>
             <div
               align="center"
-              className="w-[10%] h-[60px] text-white text-[20px] p-[10px]"
+              className="w-[28%] sm:w-[15%] h-[60px] text-white text-[20px] p-[10px]"
             >
               {save ? (
                 <button

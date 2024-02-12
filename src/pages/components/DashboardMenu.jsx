@@ -878,7 +878,7 @@ export const DashboardMenu = (props) => {
       {newcontent ? (
         <>
           <div className="modal-overlay font-[Barlow] flex justify-center items-center fixed inset-0 bg-black bg-opacity-50 z-50">
-            <div className="w-[80%] lg:w-[30%] h-[28%] lg:h-[30%] bg-white rounded-md">
+            <div className="w-[80%] lg:w-[30%] h-auto bg-white rounded-md">
               <div className="w-[100%] text-[#845EC2] text-[30px] flex items-center justify-end">
                 <div className="w-[80%]">
                   <h1 className="text-black text-[20px] m-[12px]">
@@ -927,7 +927,7 @@ export const DashboardMenu = (props) => {
                   />
                 </div>
               </div>
-              <div className="w-[100%] mt-[7%] flex justify-center">
+              <div className="w-[100%] mt-[7%] pb-[20px] flex justify-center">
                 <button
                   className="text-[17px] px-[10%] py-[10px] text-white bg-[#4B4453] font-bold rounded-md font-[Barlow]"
                   style={{ boxShadow: "2px 2px 20px 10px rgba(0, 0, 0, 0.25)" }}
@@ -950,7 +950,7 @@ export const DashboardMenu = (props) => {
       {editcontent.status ? (
         <>
           <div className="modal-overlay font-[Barlow] flex justify-center items-center fixed inset-0 bg-black bg-opacity-50 z-50">
-            <div className="w-[80%] lg:w-[30%] h-[28%] lg:h-[30%] bg-white rounded-md">
+            <div className="w-[80%] lg:w-[30%] h-auto bg-white rounded-md">
               <div className="w-[100%] text-[#845EC2] text-[30px] flex items-center justify-end">
                 <div className="w-[80%]">
                   <h1 className="text-black text-[20px] m-[12px]">
@@ -1000,7 +1000,7 @@ export const DashboardMenu = (props) => {
                   />
                 </div>
               </div>
-              <div className="w-[100%] mt-[7%] flex justify-center">
+              <div className="w-[100%] mt-[7%] pb-[20px] flex justify-center">
                 <button
                   className="text-[17px] px-[10%] py-[10px] text-white bg-[#4B4453] font-bold rounded-md font-[Barlow]"
                   style={{ boxShadow: "2px 2px 20px 10px rgba(0, 0, 0, 0.25)" }}
@@ -1023,7 +1023,7 @@ export const DashboardMenu = (props) => {
       {deletecontent.status ? (
         <>
           <div className="modal-overlay font-[Barlow] flex justify-center items-center fixed inset-0 bg-black bg-opacity-50 z-50">
-            <div className="w-[80%] lg:w-[30%] h-[28%] lg:h-[30%] bg-white rounded-md">
+            <div className="w-[80%] lg:w-[30%] h-auto bg-white rounded-md">
               <div className="w-[100%] text-[#845EC2] text-[30px] flex items-center justify-end">
                 <div className="w-[80%]">
                   <h1 className="text-black text-[20px] m-[12px]">
@@ -1049,7 +1049,7 @@ export const DashboardMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="w-[100%] mt-[7%] flex justify-center">
+              <div className="w-[100%] mt-[7%] pb-[20px] flex justify-center">
                 <button
                   className="text-[17px] px-[10%] py-[10px] text-white bg-[#C34A36] font-bold rounded-md font-[Barlow]"
                   style={{ boxShadow: "2px 2px 20px 10px rgba(0, 0, 0, 0.25)" }}
